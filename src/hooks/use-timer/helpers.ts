@@ -14,3 +14,14 @@ export const convertToTime = (seconds: number) => {
 
   return `${formattedMinutes}:${formattedSeconds}`;
 };
+
+export const ringBell = async () => {
+  const audio = new Audio(
+    "https://freesound.org/data/previews/80/80921_1022651-lq.mp3",
+  );
+
+  for (let i = 0; i < 4; i++) {
+    await audio.play();
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+  }
+};

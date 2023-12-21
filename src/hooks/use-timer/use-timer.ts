@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { convertToTime } from "./helpers";
+import { convertToTime, ringBell } from "./helpers";
 
-const FIVE_MINS_SECS = 300;
+const FIVE_MINS_SECS = 20;
 
 const useTimer = () => {
   const [timer, setTimer] = useState(FIVE_MINS_SECS);
@@ -30,7 +30,7 @@ const useTimer = () => {
 
   useEffect(() => {
     if (timer === 0) {
-      // Ring the bell
+      ringBell();
       setTimer(FIVE_MINS_SECS);
     }
 
