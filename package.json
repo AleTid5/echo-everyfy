@@ -1,5 +1,6 @@
 {
   "name": "echo-everyfy",
+  "homepage": "https://aletid5.github.io/echo-everyfy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
