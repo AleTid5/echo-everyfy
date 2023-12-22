@@ -22,12 +22,12 @@ const Main = () => {
           {!isActive ? (
             <Button onClick={startTimer}>
               Start
-              <PlayIcon className="ml-2 h-4 w-4" />
+              <PlayIcon />
             </Button>
           ) : (
             <Button onClick={stopTimer}>
               Stop
-              <MonitorStopIcon className="ml-2 h-4 w-4" />
+              <MonitorStopIcon />
             </Button>
           )}
         </div>

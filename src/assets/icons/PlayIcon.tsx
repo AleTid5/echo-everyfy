@@ -10,6 +10,7 @@ const PlayIcon = (props: any) => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
+    className="ml-2 h-4 w-4"
   >
     <polygon points="5 3 19 12 5 21 5 3" />
   </svg>

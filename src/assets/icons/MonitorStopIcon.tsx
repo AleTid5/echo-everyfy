@@ -10,6 +10,7 @@ const MonitorStopIcon = (props: any) => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
+    className="ml-2 h-4 w-4"
   >
     <rect x="9" y="7" width="6" height="6" />
     <rect width="20" height="14" x="2" y="3" rx="2" />
