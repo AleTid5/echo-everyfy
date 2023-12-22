@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="flex items-center justify-center py-4 bg-neutral-200 dark:bg-neutral-600">
       <span className="text-sm text-gray-500 dark:text-gray-400">
-        © {year} EchoEveryfy. All rights reserved.
+        © {year} EchoEveryfy by Alejandro Tidele. All rights reserved.
       </span>
     </footer>
   );
